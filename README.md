@@ -6,7 +6,7 @@ A new object is always returned.
 I fear this may be a haskelly thing,
 I suspect it might be an applicative functor.
 
-almost the same module as [deep-merge](https://npm.im/deep-merge) but not quite.
+almost the same module as [deep-merge](https://github.com/Raynos/deep-merge) but not quite.
 
 ## Example
 
