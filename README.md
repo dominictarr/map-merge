@@ -1,4 +1,4 @@
-# mergy
+# map-merge
 
 deep merge two objects with a rule.
 A new object is always returned.
@@ -12,7 +12,7 @@ almost the same module as [deep-merge](https://npm.im/deep-merge) but not quite.
 
 ``` js
 
-var merge = require('mergy')
+var merge = require('map-merge')
 
 merge(a, b, function (av, bv) {
   //use the value from b if a's corrisponding value is null/undefined
@@ -31,7 +31,7 @@ then any keys in the right object which are not in the left.
 This determins the order the keys appear in.
 
 ``` js
-var merge = require('mergy')
+var merge = require('map-merge')
 
 var a = {
   a: 'apple',
