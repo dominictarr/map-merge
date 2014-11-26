@@ -1,7 +1,7 @@
 {
   "name": "map-merge",
   "description": "apply a map function to merge a pair of deep data structures",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/map-merge",
   "repository": {
     "type": "git",
