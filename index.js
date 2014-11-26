@@ -14,6 +14,9 @@ var find = exports.find = function find(ary, test) {
     if(test(ary[i], i, ary)) return ary[i]
 }
 
+exports = module.exports = merge
+exports.merge = exports
+
 var clone = exports.clone = function clone (obj, mapper) {
   function map(v, k) {
     return isObject(v) ? clone(v, mapper) : mapper(v, k)
@@ -57,7 +60,7 @@ var mergeArrays = exports.mergeArrays = function (a, b, iter) {
   return o
 }
 
-exports.merge = function (a, b, merge) {
+function merge (a, b, merge) {
 
   //merge a and b objects
 
